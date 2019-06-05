@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Montserrat|Sacramento&display=swap');
+header{
+  color: navy;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  }
+body{
+  font-family: 'Montserrat', sans-serif;
+  }
+h3{
+  font-family: 'Cutive Mono', cursive;
+  color: Teal;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: underline;
+  }
+a{
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  text-decoration: none;
+  color: lightcoral;
+  }
+a:hover{
+  background-color: lightcyan;
+  color: black;
+  }
+a:visited{
+  color: lightcoral;
+  }
+.tablehead{
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+  }
+.business{
+  color: chocolate;
+  font-family: 'Cutive Mono', cursive;
+  font-weight: bolder;
+  font-size: 20px;
+  }
+#name{
+  font-family:'Sacramento', cursive;
+  font-size: 50px;
+  /* this border properties short-hand is the attribute i found on the list to choose from */
+  border: 2px solid navy;
+  }
+#org1{
+  color: darkred;
+  font-family: 'Cutive Mono', cursive;
+  font-weight: bolder;
+  font-size: 20px;
+  }
+#org2{
+  color: purple;
+  font-family: 'Cutive Mono', cursive;
+  font-weight: bolder;
+  font-size: 20px;
+  }
+#org3{
+  color: darkgreen;
+  font-family: 'Cutive Mono', cursive;
+  font-weight: bolder;
+  font-size: 20px;
+  }
+  /* ask for help with inline ID */
+#fineprint{
+  font-family: 'Cutive Mono', cursive;
+  font-size: 15px;
+  }

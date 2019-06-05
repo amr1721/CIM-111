@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans:600i|Permanent+Marker&display=swap');
+/*must link font at top of page before you can use it in doc*/
+
+  body{
+      background-color: teal;
+    color:yellow;
+    font-family:cursive;
+  }
+  /*this is a comment in CSS*/
+  /*only works in a CSS doc or the style tag*/
+h1{ color:white;
+  font-family: 'Merriweather', serif;
+}
+h3{background-color: rgb(255,228,225);
+  color: red;
+  font-family: 'Open Sans', sans-serif;
+}
+a{ color: pink;
+  text-decoration: none;
+  font-size: 30px;  /*if you remove any text decoration make sure to give contexts clues to make sure the reader knows what's going on*/
+}
+a:hover{
+  background-color: purple;
+}
+a:visited{
+  color: green
+}
+li{
+  color: lightgreen;
+}
+ul{
+  list-style: georgian;
+}
+h3 em{
+  font-weight: lighter;
+  color: darkred;
+}
+
+/* id start with #, and are on;y meant to be used once in the document */
+#name{
+  color: lightgray;
+  font-size: 40PX;
+  font-family: 'Permanent Marker', cursive;
+  /* cursive is after permanent marker to place it as a default to the font incase it can't be found on the server and not default to a system font on each individual computer */
+}
+#narwal{
+  color: rgb(0,225,225)
+}
+
+/*classes start with a period and used multiple times*/
+.bolder{
+  font-weight: bolder
+}
+.underline{
+  text-decoration: underline;
+}
+#Jenna{
+  color: hotpink;
+}
