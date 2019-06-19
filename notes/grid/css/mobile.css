@@ -1,0 +1,35 @@
+@import "desktop.css";
+
+header, main, footer{
+  width: 480px;
+}
+
+#section1,#section2,#section3,#section4{
+  display:block;
+  width: 480px;
+}
+
+#snack{
+  width: 920px;
+  height: auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  background-color: white;
+}
+#dinner{
+  width: 920px;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: white;
+}
+#dessert{
+  width: 920px;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  background-color: white;
+}
