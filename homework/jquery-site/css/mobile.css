@@ -1,0 +1,49 @@
+@import "desktop.css";
+
+header footer main {
+  width:480px;
+  height: auto;
+}
+
+section{
+  margin: 0 auto;
+}
+
+h3{
+  text-align: center;
+}
+
+
+#snack{
+  width: 480px;
+  height: auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  background-color: white;
+}
+#dinner{
+  width: 480px;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: white;
+}
+#dessert{
+  width: 480px;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  background-color: white;
+}
+#chef{
+    width: 480px;
+    height: auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    font-family: 'Nixie One', cursive;
+    padding-top: 10px;
+}

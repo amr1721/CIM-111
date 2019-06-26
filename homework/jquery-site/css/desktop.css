@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700|Fredericka+the+Great|Montserrat+Alternates|Nixie+One|Sofia|Special+Elite&display=swap');
+  body{
+    background-image: url("../images/cocina-bg.jpg");
+    background-repeat: repeat;
+  }
+  main{
+    width: 920px;
+    background-color: lavenderblush;
+    padding: 20px;
+    padding-top: 0px;
+    margin: 0 auto;
+  }
+  header{
+    width: 960px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 2px;
+  }
+
+  footer{
+    width: 960px;
+    background-color: white;
+    margin: 0 auto;
+    font-family: 'Nixie One', cursive;
+    text-align: center;
+    padding: 2px;
+  }
+  h1{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 50px;
+  }
+  .link{
+    text-decoration: none;
+    background-color: moccasin;
+    font-weight: bold;
+    text-align: center;
+  }
+  #title{
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    font-size: 17px;
+  }
+  #cookbooksec{
+    width: 400px;
+    height: auto;
+    background-color: seashell;
+    padding: 10px;
+    margin: 0 auto; /* 0=top/bottom,auto=left/right */
+    display: inline-block;
+    margin-left:
+  }
+  #cookbook{
+    width: 100%;
+    border: solid 5px black;
+    border-bottom-width:6px;
+  }
+  nav{
+    width: 400px;
+    height: 50px;
+    margin: 0 auto;
+  }
+  nav ul{
+    text-align: center;
+  }
+  nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: -15px;
+    text-align: center;
+    font-family: 'Nixie One', cursive;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  /* ask how to center bottom line of nav */
+  nav ul li a{
+    color: black;
+    text-decoration: none;
+  }
+  nav ul li a:hover{
+    background-color: moccasin;
+  }
+  h3{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+  }
+  #snack{
+    width: 920px;
+    height: auto;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: white;
+  }
+  #dinner{
+    width: 920px;
+    height: auto;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: white;
+  }
+  #dessert{
+    width: 920px;
+    height: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: white;
+  }
+  #des3,#des4{
+    text-align:right;
+  }
+  #chef{
+    width: 920px;
+    height: auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr;
+    font-family: 'Nixie One', cursive;
+    padding-top: 10px;
+  }
+
+.pic{
+  width: 95%;
+  border: solid 5px black;
+  }
+  .des {
+    font-family: 'Nixie One', cursive;
+    padding: 5px;
+  }
+
+  .din {
+    font-family: 'Nixie One', cursive;
+    padding: 5px;
+  }
+.sk{
+  font-family: 'Nixie One', cursive;
+  padding: 5px;
+}
+  h4{
+    font-family: 'Special Elite', cursive;
+  }
+
+
+/* coding for fonts */
+  #a{
+    font-family: 'Amatic SC', cursive;}
+  #b{
+    font-family: 'Sofia', cursive;}
+  #c{
+  font-family: 'Special Elite', cursive;}
+  #d{
+  font-family: 'Fredericka the Great', cursive;}
+#e{
+  font-family: 'Montserrat Alternates', sans-serif;}
+#f{
+  font-family: 'Nixie One', cursive;}
+
+
+  .recipe{
+    width: 920px;
+    height: auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr;
+    font-family: 'Nixie One', cursive;
+    padding-top: 10px;
+  }
